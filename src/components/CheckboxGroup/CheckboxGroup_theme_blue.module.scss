@@ -1,0 +1,49 @@
+@import "src/styles/vars/variables.blue";
+
+.checkbox-group {
+  display: flex;
+
+  &_direction {
+    &_horizontal {
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin-bottom: -$buttonGroupVerticalGap*2;
+
+      .checkbox-group__item {
+        margin-bottom: $buttonGroupVerticalGap * 2;
+
+        &:not(:last-child) {
+          margin-right: $buttonGroupHorizontalGap * 3;
+        }
+      }
+    }
+
+    &_vertical {
+      flex-direction: column;
+
+      button {
+        width: 100%;
+      }
+
+      .checkbox-group__item {
+        &:not(:last-child) {
+          margin-bottom: $buttonGroupVerticalGap * 2;
+        }
+      }
+    }
+  }
+
+  &__label {
+    flex: 1 0 100%;
+    margin-bottom: $buttonGroupVerticalGap;
+    color: $buttonBaseColor;
+    font-weight: bold;
+  }
+
+  &__item {
+    button {
+      margin: 0;
+    }
+  }
+}
+

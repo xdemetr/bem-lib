@@ -1,0 +1,55 @@
+@import "font.icomoon";
+@import "font.poppins";
+
+$fontFamily: Poppins, 'Helvetica', 'Arial', sans-serif;
+
+$primaryColor: #0081FF;
+$successColor: #52CC7A;
+$warningColor: #FF4D55;
+$textColor: #737980;
+//$secondaryColor: #9bdf91;
+
+$buttonBorderRadius: 4px;
+$buttonGroupHorizontalGap: 8px;
+$buttonGroupVerticalGap: 8px;
+$buttonHeight: 48px;
+$buttonSmallHeight: 37px;
+
+
+$buttonBaseColor: #737980;
+
+$buttonModPrimaryBg: #0081FF;
+//$buttonModPrimaryBorderColor: #4976ba;
+
+$buttonModBaseBgFirst: #EBEEF0;
+//$buttonModBaseBgSecond: #f3f3f4;
+
+$inputBorderColor: #EBEEF0;
+$inputBorderHoverColor: #B8C2CC;
+$inputBorderHighlight: #2f6bd4;
+$inputLabelColor: #737980; // for radio, checkbox
+$inputLabelPrimaryColor: #B8C2CC; // for text-field
+
+$checkBoxSize: 20px;
+$radioButtonSize: 20px;
+$radioButtonSelectedSize: 8px;
+$textFieldSize: 40px;
+$textFieldHorizontalGap: 12px;
+$textFieldVerticalGap: 16px;
+$textFieldBgColor: #fff;
+
+$tabsContentPadding: 16px;
+$tabsBorderColor: #D9DEE1;
+
+$switchWidth: 64px;
+$switchHeight: 30px;
+$switchBgColor: #dadada;
+
+$switchTabsHeight: 40px;
+$switchTabsBorderSize: 2px;
+
+$paginationBgColor: #fdfefd;
+$paginationBorderColor: #f1f3f1;
+$paginationLinkColor: #737980;
+$paginationLinkCurrentColor: #fff;
+$paginationLinkActiveBg: #e7e8e8;
