@@ -1628,20 +1628,6 @@
   resolved "https://registry.yarnpkg.com/@base2/pretty-print-object/-/pretty-print-object-1.0.0.tgz#860ce718b0b73f4009e153541faff2cb6b85d047"
   integrity sha512-4Th98KlMHr5+JkxfcoDT//6vY8vM+iSPrLNpHhRyLx2CFYi8e2RfqPLdpbnpo0Q5lQC5hNB79yes07zb02fvCw==
 
-"@bit/xdemetr.bem-library.button@^1.0.7":
-  version "1.0.7"
-  resolved "https://node.bit.dev/xdemetr.bem-library.button/-/xdemetr.bem-library.button-1.0.7.tgz#0f7baf9e577eadca46b61470c1824bf915778df2"
-  integrity sha1-D3uvnld+rcpGthRwwYJL+RV3jfI=
-  dependencies:
-    "@bit/xdemetr.bem-library.variablesblue" "1.0.0"
-    classnames "^2.2.6"
-    react "^16.12.0"
-
-"@bit/xdemetr.bem-library.variablesblue@1.0.0":
-  version "1.0.0"
-  resolved "https://node.bit.dev/xdemetr.bem-library.variablesblue/-/xdemetr.bem-library.variablesblue-1.0.0.tgz#3be4ea4bb7dc5c5e7b3c4b031ab553dcefcf5e72"
-  integrity sha1-O+TqS7fcXF57PEsDGrVT3O/PXnI=
-
 "@chromaui/localtunnel@1.10.1":
   version "1.10.1"
   resolved "https://registry.yarnpkg.com/@chromaui/localtunnel/-/localtunnel-1.10.1.tgz#34da7dab7055a16b1b9034a9eb7e3054ebec4b98"
@@ -5324,9 +5310,9 @@ decamelize@^1.1.1, decamelize@^1.1.2, decamelize@^1.2.0:
   integrity sha1-9lNNFRSCabIDUue+4m9QH5oZEpA=
 
 decode-uri-component@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
-  integrity sha1-6zkTMzRYd1y4TNGh+uBiEGu4dUU=
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.2.tgz#e69dbe25d37941171dd540e024c444cd5188e1e9"
+  integrity sha512-FqUYQ+8o158GyGTrMFJms9qh3CqTKvAqgqsTnkLI8sKu0028orqBhxNMFkFen0zGyg6epACD32pjVk58ngIErQ==
 
 deep-equal@^1.0.1, deep-equal@^1.1.1:
   version "1.1.1"
